@@ -1,1 +1,78 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Jacob's Portfoilo</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__logo">Jacob Stout</h1>
+            <nav class="header__nav">
+                <ul class="header__nav_list">
+                    <a href="#about__me">About Me</a>
+                    <a href="#projects">Projects</a>
+                </ul>
+            </nav>
+        </header>
+        <section class="profile">
+            <figure>
+                <img src="images\headshot.jpg" alt="Jacob Stout" class ="profile__image">
+            </figure>
+            <article class="about__me" id="about__me">
+                <h2>Welcome to my page!</h2>
+                <p>My passion with computer systems started a very young age. Our families first PC, in fact, ran MS-DOS and I would spend hours cataloging my baseball cards. As I started growing up so did technologies all around me. I had to understand it all. So I started taking computers apart and putting them back together and by now I'm actually rather good at it. I've installed and worked with countless different types of software from music tools like ProTools to POS systems like Micros. More recently I have started my journey into software engineering and website development and I couldn't be happier! </p>
+                <ul>
+                    <li>Email: jacobstout59@gmail.com</li>
+                    <a href="https://github.com/JediJake66">My Github: https://github.com/JediJake66</a>
+                </ul>
+            </article>
+        </section>
+        <h2 class="projects__title">Current Projects</h2>
+        <section class="projects" id="projects">
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet</h3>
+                <figure class="projects__column_figure">
+                    <img src="images\kitten.jpg" alt="virtualPet" class="projects__column_image">
+                    <a href="https://github.com/2021-October-Java-PT/virtual-pet-JediJake66">
+                        <input type="button" class="projects__column_button" value="Enter">
+                    </a>
+                </figure>
+                <p>In my first completed project, I made a digital pet that you find in the wild and then nurse back to health</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet Shelter</h3>
+                <figure class="projects__column_figure">
+                    <img src="images\2dogs.jpg" alt="virtualPetShelter" class="projects__column_image">
+                    <a href="https://github.com/2021-October-Java-PT/virtual-pet-shelter-JediJake66">
+                    <input type="button" class="projects__column_button" value="Enter">
+                    </a>
+                </figure>
+                <p>Part 2 of the Virtual Pet series. In this project we add multiple pets and are able to care for individual pets as well as the pets as a whole. Also the function to abmit new pets as well as adopting pets was added.</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pets Amok</h3>
+                <figure class="projects__column_figure">
+                    <img src="images\robot.jpg" alt="virtualPetsAmok" class="projects__column_image">
+                    <a href="https://github.com/2021-October-Java-PT/virtual-pets-amok-JediJake66">
+                    <input type="button" class="projects__column_button" value="Enter">
+                    </a>
+                </figure>
+                <p>Final version of the Virtual Pet series. In this project we add multiple pet types such as cats, dogs, and even robots!! You can take care of the indivual classes of pets between organic and robotic as well as just interact with cats or dogs or the robotic counterparts of each. </p>
+            </article>
+        </section>
+        <footer class="footer">
+            <small class="footer__copyright">&copy WCCI 2021</small>
+            <section class="footer__social">
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+            </section>
+        </footer>
+    </div>
+    
+</body>
+</html>
