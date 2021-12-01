@@ -201,6 +201,12 @@ ul {
     flex-direction: column;
   }
 
+  .projects {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
