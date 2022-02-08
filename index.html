@@ -1,79 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Jacob's Portfoilo</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <h1 class="header__logo">Jacob Stout</h1>
-            <nav class="header__nav">
-                <ul class="header__nav_list">
-                    <a href="#about__me">About Me</a>
-                    <a href="#projects">Projects</a>
-                </ul>
-            </nav>
-        </header>
-        <section class="profile">
-            <figure>
-                <img src="images\headshot.jpg" alt="Jacob Stout" class ="profile__image">
-            </figure>
-            <article class="about__me" id="about__me">
-                <h2>Welcome to my page!</h2>
-                <p>My passion with computer systems started a very young age. Our families first PC, in fact, ran MS-DOS and I would spend hours cataloging my baseball cards. As I started growing up so did technologies all around me. I had to understand it all. So I started taking computers apart and putting them back together and by now I'm actually rather good at it. I've installed and worked with countless different types of software from music tools like ProTools to POS systems like Micros. More recently I have started my journey into software engineering and website development and have learned several new languages. Such as: Java, Javascript, HTML, CSS, and Spring. </p>
-                <ul>
-                    <li>Email: jacobstout59@gmail.com</li>
-                   <li><a href="https://github.com/JediJake66">My Github: https://github.com/JediJake66</a></li>
-                    <li><a href="https://www.linkedin.com/in/jacob-a-stout/">My LinkedIn: https://www.linkedin.com/in/jacob-a-stout/</a></li>
-                </ul>
-            </article>
+      <header class="header">
+        <h1 class="header__logo">Jacob Stout</h1>
+        <nav class="header__nav">
+          <ul class="header__nav_list">
+            <a href="#about__me">About Me</a>
+            <a href="#projects">Projects</a>
+          </ul>
+        </nav>
+      </header>
+      <section class="profile">
+        <figure>
+          <img
+            src="images\headshot.jpg"
+            alt="Jacob Stout"
+            class="profile__image"
+          />
+        </figure>
+        <article class="about__me" id="about__me">
+          <h2>Welcome to my page!</h2>
+          <p>
+            My passion with computer systems started a very young age. As I
+            started growing up so did technologies all around me. I had to
+            understand it all. So I started taking computers apart and putting
+            them back together. I've installed and worked with countless
+            different types of software from music tools like ProTools to POS
+            systems like Micros. I also enjoy reprogramming handheld game
+            systems to unlock their full potential. More recently I have started
+            my journey into software engineering and website development and
+            have learned several new languages. Such as: Java, Javascript, HTML,
+            CSS, and Spring. I also have experience in utilizing agile and scrum
+            methodologies in a team environment.
+          </p>
+          <ul>
+            <li>Email: jacobstout59@gmail.com</li>
+            <li>
+              <a href="https://github.com/JediJake66"
+                >My Github: https://github.com/JediJake66</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jacob-a-stout/"
+                >My LinkedIn: https://www.linkedin.com/in/jacob-a-stout/</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+      <h2 class="projects__title">Current Projects</h2>
+      <section class="projects" id="projects">
+        <article class="projects__column">
+          <h3 class="projects__column_title">Donut Maker</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="images\donutMaker.jpg"
+              alt="virtualPet"
+              class="projects__column_image"
+            />
+            <a href="https://github.com/JediJake66/donut-maker-JediJake66.git">
+              <input
+                type="button"
+                class="projects__column_button"
+                value="Enter"
+              />
+            </a>
+          </figure>
+          <p>
+            Based on the hit game<a
+              class="cookieClick"
+              href="https://orteil.dashnet.org/cookieclicker/"
+              >Cookie Clicker,</a
+            >I used Javascript, HTML and CSS to create a game that allowed the
+            user to click a button that generated donuts and after earning
+            enough donuts the user can purchase multipliers and autoclickers.
+          </p>
+        </article>
+        <article class="projects__column">
+          <h3 class="projects__column_title">Star Wars Lego Review Site</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="images\reviewsImg2.jpg"
+              alt="virtualPetShelter"
+              class="projects__column_image"
+            />
+            <a
+              href="https://github.com/JediJake66/reviews-site-mvc-JediJake66.git"
+            >
+              <input
+                type="button"
+                class="projects__column_button"
+                value="Enter"
+              />
+            </a>
+          </figure>
+          <p>
+            My passion for Star Wars bleeds over into my programming here where
+            I wrote a web application using a MVC design pattern. The languages
+            I used was Java, HTML, and CSS. I provided pictures of my own lego
+            sets and wrote brief desciptions on some of my favorite ones.
+          </p>
+        </article>
+        <article class="projects__column">
+          <h3 class="projects__column_title">Mystery Educator</h3>
+          <figure class="projects__column_figure">
+            <img
+              src="images\mysteryImg.jpg"
+              alt="virtualPetsAmok"
+              class="projects__column_image"
+            />
+            <a
+              href="https://github.com/JediJake66/team-3-spa.git"
+            >
+              <input
+                type="button"
+                class="projects__column_button"
+                value="Enter"
+              />
+            </a>
+          </figure>
+          <p>
+            This is a team project where we made a wen application for children ages 6-13. The user has an opportunity to learn about classic art, be given a random activity to do, or select a link to a number of fun games. We utilized agile and scrum methodologies to complete the project before the deadline. We used a MVC design to create our own API and used JavaScript, HTML, and CSS to wire in API's from the Metropolitan Art Museum and Bored.
+          </p>
+        </article>
+      </section>
+      <footer class="footer">
+        <small class="footer__copyright">&copy WCCI 2021</small>
+        <section class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/jacob-a-stout/"
+            class="fab fa-linkedin"
+          ></a>
+          <a href="https://github.com/JediJake66" class="fab fa-github"></a>
         </section>
-        <h2 class="projects__title">Current Projects</h2>
-        <section class="projects" id="projects">
-            <article class="projects__column">
-                <h3 class="projects__column_title">Donut Maker</h3>
-                <figure class="projects__column_figure">
-                    <img src="images\virtualPet.jpg" alt="virtualPet" class="projects__column_image">
-                    <a href="https://github.com/JediJake66/donut-maker-JediJake66.git">
-                        <input type="button" class="projects__column_button" value="Enter">
-                    </a>
-                </figure>
-                <p>In my first completed project, I made a digital pet that you find in the wild and then nurse back to health. I made this using Java.</p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Virtual Pet Shelter</h3>
-                <figure class="projects__column_figure">
-                    <img src="images\virtualPetShelter.jpg" alt="virtualPetShelter" class="projects__column_image">
-                    <a href="https://github.com/2021-October-Java-PT/virtual-pet-shelter-JediJake66">
-                    <input type="button" class="projects__column_button" value="Enter">
-                    </a>
-                </figure>
-                <p>Part 2 of the Virtual Pet series. In this project we add multiple pets and are able to care for individual pets as well as the pets as a whole. Also the function to abmit new pets as well as adopting pets was added.I also used Java for this. </p>
-            </article>
-            <article class="projects__column">
-                <h3 class="projects__column_title">Virtual Pets Amok</h3>
-                <figure class="projects__column_figure">
-                    <img src="images\virtualPetAmok.jpg" alt="virtualPetsAmok" class="projects__column_image">
-                    <a href="https://github.com/2021-October-Java-PT/virtual-pets-amok-JediJake66">
-                    <input type="button" class="projects__column_button" value="Enter">
-                    </a>
-                </figure>
-                <p>Final version of the Virtual Pet series. In this project we add multiple pet types such as cats, dogs, and even robots!! You can take care of the indivual classes of pets between organic and robotic as well as just interact with cats or dogs or the robotic counterparts of each. And again I used Java to create this game but also started to use interfaces and abstractions. </p>
-            </article>
-        </section>
-        <footer class="footer">
-            <small class="footer__copyright">&copy WCCI 2021</small>
-            <section class="footer__social">
-                <a href="https://www.linkedin.com/in/jacob-a-stout/" class="fab fa-linkedin"></a>
-                <a href="https://github.com/JediJake66" class="fab fa-github"></a>
-            </section>
-        </footer>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>

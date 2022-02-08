@@ -226,3 +226,7 @@ body {
   background-attachment: fixed;
   background-color: black;
 }
+
+.cookieClick{
+  text-decoration: underline;
+}
