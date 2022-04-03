@@ -56,6 +56,7 @@ p {
 }
 .navbar-nav li a {
   color: #fff !important;
+  text-decoration: none;
 }
 .navbar-nav li a:hover {
   color: #1abc9c !important;
