@@ -1,153 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Jacob's Portfoilo</title>
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <h1 class="header__logo">Jacob Stout</h1>
-        <nav class="header__nav">
-          <ul class="header__nav_list">
-            <a href="#about__me">About Me</a>
-            <a href="#projects">Projects</a>
-          </ul>
-        </nav>
-      </header>
-      <section class="profile">
-        <figure>
-          <img
-            src="images\headshot.jpg"
-            alt="Jacob Stout"
-            class="profile__image"
-          />
-        </figure>
-        <article class="about__me" id="about__me">
-          <h2>Welcome to my page!</h2>
-          <p>
-            My passion with computer systems started a very young age. As I
-            started growing up so did technologies all around me. I had to
-            understand it all. So I started taking computers apart and putting
-            them back together. I've installed and worked with countless
-            different types of software from music tools like ProTools to POS
-            systems like Micros. I also enjoy reprogramming handheld game
-            systems to unlock their full potential. More recently I have started
-            my journey into software engineering and website development and
-            have learned several new languages. Such as: Java, Javascript, HTML,
-            CSS, and Spring. I also have experience in utilizing agile and scrum
-            methodologies in a team environment.
-          </p>
-          <ul>
-            <li>Email: jacobstout59@gmail.com</li>
-            <li>
-              <a href="https://github.com/JediJake66"
-                >My Github: https://github.com/JediJake66</a
-              >
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/jacob-a-stout/"
-                >My LinkedIn: https://www.linkedin.com/in/jacob-a-stout/</a
-              >
-            </li>
-          </ul>
-        </article>
-      </section>
-      <h2 class="projects__title">Current Projects</h2>
-      <section class="projects" id="projects">
-        <article class="projects__column">
-          <h3 class="projects__column_title">Donut Maker</h3>
-          <figure class="projects__column_figure">
-            <img
-              src="images\donutMaker.jpg"
-              alt="virtualPet"
-              class="projects__column_image"
-            />
-            <a href="https://github.com/JediJake66/donut-maker-JediJake66.git">
-              <input
-                type="button"
-                class="projects__column_button"
-                value="Enter"
-              />
-            </a>
-          </figure>
-          <p>
-            Based on the hit game<a
-              class="cookieClick"
-              href="https://orteil.dashnet.org/cookieclicker/"
-              >Cookie Clicker,</a
-            >I used Javascript, HTML and CSS to create a game that allowed the
-            user to click a button that generated donuts and after earning
-            enough donuts the user can purchase multipliers and autoclickers.
-          </p>
-        </article>
-        <article class="projects__column">
-          <h3 class="projects__column_title">Star Wars Lego Review Site</h3>
-          <figure class="projects__column_figure">
-            <img
-              src="images\reviewsImg2.jpg"
-              alt="virtualPetShelter"
-              class="projects__column_image"
-            />
-            <a
-              href="https://github.com/JediJake66/reviews-site-mvc-JediJake66.git"
-            >
-              <input
-                type="button"
-                class="projects__column_button"
-                value="Enter"
-              />
-            </a>
-          </figure>
-          <p>
-            My passion for Star Wars bleeds over into my programming here where
-            I wrote a web application using a MVC design pattern. The languages
-            I used was Java, HTML, and CSS. I provided pictures of my own lego
-            sets and wrote brief desciptions on some of my favorite ones.
-          </p>
-        </article>
-        <article class="projects__column">
-          <h3 class="projects__column_title">Mystery Educator</h3>
-          <figure class="projects__column_figure">
-            <img
-              src="images\mysteryImg.jpg"
-              alt="virtualPetsAmok"
-              class="projects__column_image"
-            />
-            <a
-              href="https://github.com/JediJake66/team-3-spa.git"
-            >
-              <input
-                type="button"
-                class="projects__column_button"
-                value="Enter"
-              />
-            </a>
-          </figure>
-          <p>
-            This is a team project where we made a wen application for children ages 6-13. The user has an opportunity to learn about classic art, be given a random activity to do, or select a link to a number of fun games. We utilized agile and scrum methodologies to complete the project before the deadline. We used a MVC design to create our own API and used JavaScript, HTML, and CSS to wire in API's from the Metropolitan Art Museum and Bored.
-          </p>
-        </article>
-      </section>
-      <footer class="footer">
-        <small class="footer__copyright">&copy WCCI 2021</small>
-        <section class="footer__social">
-          <a
-            href="https://www.linkedin.com/in/jacob-a-stout/"
-            class="fab fa-linkedin"
-          ></a>
-          <a href="https://github.com/JediJake66" class="fab fa-github"></a>
-        </section>
-      </footer>
+<head>
+  <title>Jacob Stout Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation menu -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Jacob Stout</a>
     </div>
-  </body>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#proj">MY PROJECTS</a></li>
+        <li><a href="#contact">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ABOUT Container -->
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin" id="about">Jacob Stout</h3>
+  <img src="images\headshot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm a Software Developer</h3>
+  <p>My passion with computer systems started a very young age. As I started growing up so did technologies all around me. I had to understand it all.
+     So I started taking computers apart and putting them back together. I've installed and worked with countless different types of software from music tools like 
+     ProTools to POS systems like Micros. I also enjoy reprogramming handheld game systems to unlock their full potential. More recently I have started my journey into 
+     software engineering and website development and have learned several new languages. Such as: Java, Javascript, HTML, CSS, and Spring. I also have experience in 
+     utilizing agile and scrum methodologies in a team environment. </p>
+</div>
+
+<!-- CONTACT Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin" id="contact">Contact Me</h3>
+  <div class="about-cont">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </div>
+</div>
+
+<!-- PROJECTS Container -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin" id="proj">MY PROJECTS</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\donutMaker.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\mysteryImg.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\reviewsImg.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\donutMaker.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\mysteryImg.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images\reviewsImg.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Copyright 2022 Jacob Stout <a href="https://github.com/JediJake66">Github Portfolio</a></p> 
+</footer>
+
+</body>
 </html>
